@@ -5,7 +5,7 @@
 
 var Emitter = require('emitter')
   , inherit = require('inherit')
-  , o = require('jquery');
+  , o = window.$;
 
 /**
  * Expose `overlay()`.
