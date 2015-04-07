@@ -2,10 +2,15 @@
   "name": "overlay-component",
   "description": "Overlay component",
   "version": "0.0.4",
-  "keywords": ["overlay", "ui"],
+  "keywords": [
+    "overlay",
+    "ui"
+  ],
   "dependencies": {
-    "inherit-component": "*",
+    "emitter": "0.0.1",
     "emitter-component": "*",
+    "inherit": "^2.2.2",
+    "inherit-component": "*",
     "jquery-component": "*"
   },
   "component": {
@@ -13,6 +18,8 @@
       "overlay/index.js": "index.js",
       "overlay/template.js": "template.js"
     },
-    "styles": ["overlay.css"]
+    "styles": [
+      "overlay.css"
+    ]
   }
 }
