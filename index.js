@@ -8,12 +8,6 @@ var inherits = require('inherits');
 var o = window.$;
 
 /**
- * Expose `overlay()`.
- */
-
-module.exports = Overlay;
-
-/**
  * Initialize a new `Overlay`.
  *
  * @param {Object} options
@@ -28,12 +22,6 @@ function Overlay(options) {
   this.el.appendTo('body');
   if (this.closable) this.el.click(this.hide.bind(this));
 }
-
-/**
- * Inherits from `Emitter.prototype`.
- */
-
-inherits(Overlay, Emitter);
 
 /**
  * Show the overlay.
@@ -82,3 +70,7 @@ Overlay.prototype.remove = function(){
   }, 2000);
   return this;
 };
+
+inherits(Overlay, Emitter);
+
+module.exports = Overlay;
