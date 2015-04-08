@@ -4,7 +4,7 @@
  */
 
 var Emitter = require('component-emitter');
-var inherits = require('inherits');
+var inherit = require('inherit-component');
 var o = window.$;
 
 /**
@@ -71,6 +71,6 @@ Overlay.prototype.remove = function(){
   return this;
 };
 
-inherits(Overlay, Emitter);
+inherit(Overlay, Emitter);
 
 module.exports = Overlay;
