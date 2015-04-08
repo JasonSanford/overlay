@@ -3,33 +3,15 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-  , inherits = require('inherits')
-  , o = window.$;
+var Emitter = require('emitter');
+var inherits = require('inherits');
+var o = window.$;
 
 /**
  * Expose `overlay()`.
  */
 
-exports = module.exports = overlay;
-
-/**
- * Expose `Overlay`.
- */
-
-exports.Overlay = Overlay;
-
-/**
- * Return a new `Overlay` with the given `options`.
- *
- * @param {Object} options
- * @return {Overlay}
- * @api public
- */
-
-function overlay(options){
-  return new Overlay(options);
-};
+module.exports = Overlay;
 
 /**
  * Initialize a new `Overlay`.
@@ -100,4 +82,3 @@ Overlay.prototype.remove = function(){
   }, 2000);
   return this;
 };
-
