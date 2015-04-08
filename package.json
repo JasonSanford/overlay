@@ -8,10 +8,7 @@
   ],
   "dependencies": {
     "emitter": "0.0.1",
-    "emitter-component": "*",
-    "inherit": "^2.2.2",
-    "inherit-component": "*",
-    "jquery-component": "*"
+    "inherit": "^2.2.2"
   },
   "component": {
     "scripts": {
