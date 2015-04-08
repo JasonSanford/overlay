@@ -7,7 +7,7 @@
     "ui"
   ],
   "dependencies": {
-    "emitter": "0.0.1",
+    "component-emitter": "1.2.0",
     "inherits": "^2.0.1"
   },
   "component": {

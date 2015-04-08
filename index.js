@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter');
+var Emitter = require('component-emitter');
 var inherits = require('inherits');
 var o = window.$;
 
