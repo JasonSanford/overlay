@@ -4,7 +4,7 @@
  */
 
 var Emitter = require('emitter')
-  , inherit = require('inherit')
+  , inherits = require('inherits')
   , o = window.$;
 
 /**
@@ -51,7 +51,7 @@ function Overlay(options) {
  * Inherits from `Emitter.prototype`.
  */
 
-inherit(Overlay, Emitter);
+inherits(Overlay, Emitter);
 
 /**
  * Show the overlay.
